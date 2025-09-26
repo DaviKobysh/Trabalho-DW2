@@ -10,31 +10,121 @@ body{
 .containerprincipal{
 }
 .containercabeça{
+    display: flex;
     width: 100%;
+    justify-content: center;
     border: solid 0px;
     height: 20px;
     background-color: #0B2341;
+    align-items: center;
 }
 .containercmc{
+    display: flex;
     width: 100%;
     border: solid 0px;
-    height: 150px;
-    background-color: #5fa0cd;
+    height: 200px;
+    background-color:#C1E6F5;
+    align-items: center;
+    justify-content:space-evenly;
 }
 .logo{
- width: 100%;
- border:  solid 0px;
- height: 149px;
- display: flex;
- align-items: center;
- justify-content: center;
+    display: flex;
+    width: auto;
+    border:  solid 0px;
+    height: 149px;
+    display: flex;
+    align-items: center;
+}
+.barra{
+    display: flex;
+    border: solid 1px;
+    width: 1500px;
+    height: 200px;
+    align-self: center;
+    align-items: center;
+}
+.pesquisa{
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
 }
 .prod{
+    display: flex;
     width: 100%;
     border: solid 1px;
-    height: 765px;
+    height: auto;
     background-color: aliceblue;
+    flex-direction: column;
 }
 .text{
-       margin: 10px; 
+    display: flex;
+    border: solid 1px;
+    height: 60px;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.paineis{
+    display: grid;
+    border: solid 1px;
+    width: 100%;
+    height: 200px;
+    grid-template-columns:200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    gap: 100px;
+}
+.img{
+    border-radius: 50%;
+    display: grid;
+    border: solid 1px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.img img{
+    width: 150px;
+}
+.prods{
+    display: flex;
+    width: 100%;
+    border: solid 1px;
+    margin: 0px;
+    flex-direction: row;
+}
+.prod1{
+    display: flex;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    border: solid 5px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.prod2{
+
+}
+.prod3{
+
+}
+.prod4{
+
+}
+.imageprod1{
+    display: flex;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.subprod1{
+    display: flex;
+    border: solid 1px;
+    width: 20px;
+    height: 20px;
+}
+p, h1 {
+    font-family: Montserrat;
 }
