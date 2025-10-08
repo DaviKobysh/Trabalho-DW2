@@ -20,19 +20,21 @@ body{
 }
 .containercmc{
     display: flex;
+    top: 0;
     width: 100%;
-    border: solid 0px;
+    border-bottom: solid 2px;
     height: 200px;
     background-color:#C1E6F5;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:0;
+    border-bottom-color: #5fa0cd;
+    padding: 0px 300px;
 }
 .logo{
     display: flex;
     width: auto;
     border:  solid 0px;
     height: 149px;
-    display: flex;
     align-items: center;
 }
 .barra{
@@ -42,34 +44,81 @@ body{
     height: 200px;
     align-self: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 .pesquisa{
+    display: flex;
     border: solid 1px;
-    width: 200px;
+    border-color: aqua;
+    width: 600px;
+    height: 30px;
+    border-radius: 0%;
+    overflow: 0;
+    align-items: center;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 18px;
+    position: relative;
+}
+.pesquisa input{
+    width: 100%;
+    padding: 8px 150px 7px 10px;
+    border: 2px solid #5fa0cd;
+    border-radius: 30px;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.pesquisa input::placeholder{
+    color:lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+.pesquisa form img{
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+.contato{
+    display: flex;
     height: 200px;
+    width: 742px;
+    border: solid 1px;
+    border-color:red;
+    align-items: top;
+    justify-content: flex-end;
 }
 .prod{
     display: flex;
     width: 100%;
-    border: solid 1px;
+    border: solid 0px;
     height: auto;
     background-color: aliceblue;
     flex-direction: column;
+    align-items: center;
 }
+
 .text{
     display: flex;
-    border: solid 1px;
+    border-bottom: solid 2px;
     height: 60px;
     justify-content: center;
     margin: 10px;
     align-items: center;
+    padding: 0 0 20px;
+    border-bottom-color: #5fa0cd;
+    width: 1250px;
 }
 .paineis{
     display: grid;
     border: solid 1px;
     width: 100%;
-    height: 200px;
-    grid-template-columns:200px 200px 200px 200px 200px 200px;
+    height: 100px;
+    grid-template-columns:100px 100px 100px 100px 100px 100px;
     justify-content: center;
     gap: 100px;
 }
@@ -81,9 +130,14 @@ body{
     align-items: center;
     justify-content: center;
     background-color: white;
+    border-color: #5fa0cd;
 }
 .img img{
-    width: 150px;
+    display: block;
+    object-fit: cover;
+    width: 90px;
+    transform:scale(1);
+    transition: transform .35s ease;
 }
 .prods{
     display: flex;
