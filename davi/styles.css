@@ -97,7 +97,7 @@ body{
     justify-content: center;
     align-content: center;
     margin-right: 100px;
-    margin-left: 10%;
+    margin-left: 0;
 }
 .carrinho{
     display: flex;
@@ -116,7 +116,7 @@ body{
 .contato{
     display: flex;
     height: 200px;
-    width: 600px;
+    width: 450px;
     border: solid 0px;
     border-color:red;
     align-items: top;

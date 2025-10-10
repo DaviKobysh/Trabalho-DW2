@@ -10,6 +10,7 @@
     border:solid 10px rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
+
 }
 
 .fi1 {
@@ -26,7 +27,7 @@ justify-content: space-around;
     display: flex;
 }
 .neto img{
-    width: 200px;
+    width: 150px;
     justify-content: center;
     align-items: center;
     display: flex;
